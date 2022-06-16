@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB638E262859EA5800FF62D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB638E252859EA5800FF62D5 /* AppDelegate.swift */; };
+		AB638E282859EA5800FF62D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB638E272859EA5800FF62D5 /* SceneDelegate.swift */; };
+		AB638E2A2859EA5800FF62D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB638E292859EA5800FF62D5 /* ViewController.swift */; };
+		AB638E2D2859EA5800FF62D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB638E2B2859EA5800FF62D5 /* Main.storyboard */; };
+		AB638E2F2859EA5B00FF62D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB638E2E2859EA5B00FF62D5 /* Assets.xcassets */; };
+		AB638E322859EA5B00FF62D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB638E302859EA5B00FF62D5 /* LaunchScreen.storyboard */; };
+		AB638E3A285A03B500FF62D5 /* CongratsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB638E39285A03B500FF62D5 /* CongratsViewController.swift */; };
+		AB6D9870285B38B60020105E /* GameCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6D986F285B38B60020105E /* GameCompleteViewController.swift */; };
+		AB6D9872285B55160020105E /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6D9871285B55160020105E /* PostCell.swift */; };
+		AB6D9874285B5DBE0020105E /* FeaturesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6D9873285B5DBE0020105E /* FeaturesCell.swift */; };
+		AB6D9876285B755F0020105E /* movie_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AB6D9875285B755F0020105E /* movie_1.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB638E222859EA5800FF62D5 /* EsteeLauder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EsteeLauder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB638E252859EA5800FF62D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB638E272859EA5800FF62D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AB638E292859EA5800FF62D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB638E2C2859EA5800FF62D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB638E2E2859EA5B00FF62D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB638E312859EA5B00FF62D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB638E332859EA5B00FF62D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB638E39285A03B500FF62D5 /* CongratsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratsViewController.swift; sourceTree = "<group>"; };
+		AB6D986F285B38B60020105E /* GameCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCompleteViewController.swift; sourceTree = "<group>"; };
+		AB6D9871285B55160020105E /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		AB6D9873285B5DBE0020105E /* FeaturesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturesCell.swift; sourceTree = "<group>"; };
+		AB6D9875285B755F0020105E /* movie_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie_1.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB638E1F2859EA5800FF62D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB638E192859EA5800FF62D5 = {
+			isa = PBXGroup;
+			children = (
+				AB638E242859EA5800FF62D5 /* EsteeLauder */,
+				AB638E232859EA5800FF62D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB638E232859EA5800FF62D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB638E222859EA5800FF62D5 /* EsteeLauder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB638E242859EA5800FF62D5 /* EsteeLauder */ = {
+			isa = PBXGroup;
+			children = (
+				AB638E252859EA5800FF62D5 /* AppDelegate.swift */,
+				AB638E272859EA5800FF62D5 /* SceneDelegate.swift */,
+				AB638E292859EA5800FF62D5 /* ViewController.swift */,
+				AB6D986F285B38B60020105E /* GameCompleteViewController.swift */,
+				AB638E2B2859EA5800FF62D5 /* Main.storyboard */,
+				AB638E39285A03B500FF62D5 /* CongratsViewController.swift */,
+				AB638E2E2859EA5B00FF62D5 /* Assets.xcassets */,
+				AB638E302859EA5B00FF62D5 /* LaunchScreen.storyboard */,
+				AB638E332859EA5B00FF62D5 /* Info.plist */,
+				AB6D9871285B55160020105E /* PostCell.swift */,
+				AB6D9873285B5DBE0020105E /* FeaturesCell.swift */,
+				AB6D9875285B755F0020105E /* movie_1.mp4 */,
+			);
+			path = EsteeLauder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB638E212859EA5800FF62D5 /* EsteeLauder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB638E362859EA5B00FF62D5 /* Build configuration list for PBXNativeTarget "EsteeLauder" */;
+			buildPhases = (
+				AB638E1E2859EA5800FF62D5 /* Sources */,
+				AB638E1F2859EA5800FF62D5 /* Frameworks */,
+				AB638E202859EA5800FF62D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EsteeLauder;
+			productName = EsteeLauder;
+			productReference = AB638E222859EA5800FF62D5 /* EsteeLauder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB638E1A2859EA5800FF62D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					AB638E212859EA5800FF62D5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = AB638E1D2859EA5800FF62D5 /* Build configuration list for PBXProject "EsteeLauder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB638E192859EA5800FF62D5;
+			productRefGroup = AB638E232859EA5800FF62D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB638E212859EA5800FF62D5 /* EsteeLauder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB638E202859EA5800FF62D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB638E322859EA5B00FF62D5 /* LaunchScreen.storyboard in Resources */,
+				AB638E2F2859EA5B00FF62D5 /* Assets.xcassets in Resources */,
+				AB6D9876285B755F0020105E /* movie_1.mp4 in Resources */,
+				AB638E2D2859EA5800FF62D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB638E1E2859EA5800FF62D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB638E2A2859EA5800FF62D5 /* ViewController.swift in Sources */,
+				AB638E262859EA5800FF62D5 /* AppDelegate.swift in Sources */,
+				AB6D9870285B38B60020105E /* GameCompleteViewController.swift in Sources */,
+				AB638E282859EA5800FF62D5 /* SceneDelegate.swift in Sources */,
+				AB638E3A285A03B500FF62D5 /* CongratsViewController.swift in Sources */,
+				AB6D9872285B55160020105E /* PostCell.swift in Sources */,
+				AB6D9874285B5DBE0020105E /* FeaturesCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB638E2B2859EA5800FF62D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB638E2C2859EA5800FF62D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB638E302859EA5B00FF62D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB638E312859EA5B00FF62D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB638E342859EA5B00FF62D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB638E352859EA5B00FF62D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB638E372859EA5B00FF62D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WJTULE72U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EsteeLauder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kang.EsteeLauder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB638E382859EA5B00FF62D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4WJTULE72U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EsteeLauder/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = kang.EsteeLauder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB638E1D2859EA5800FF62D5 /* Build configuration list for PBXProject "EsteeLauder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB638E342859EA5B00FF62D5 /* Debug */,
+				AB638E352859EA5B00FF62D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB638E362859EA5B00FF62D5 /* Build configuration list for PBXNativeTarget "EsteeLauder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB638E372859EA5B00FF62D5 /* Debug */,
+				AB638E382859EA5B00FF62D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB638E1A2859EA5800FF62D5 /* Project object */;
+}
